@@ -25,9 +25,9 @@ public class move : MonoBehaviour
     {   
         
         if(mDirRight == true)
-        transform.position = new Vector2(transform.position.x+mvSpeed,transform.position.y);
+        transform.position = new Vector3(transform.position.x+mvSpeed,transform.position.y,transform.position.z);
         else if(mDirRight== false)
-        transform.position = new Vector2(transform.position.x-mvSpeed, transform.position.y);
+        transform.position = new Vector3(transform.position.x-mvSpeed, transform.position.y,transform.position.z);
         if(Input.GetKeyDown(KeyCode.Space)){
             mDirRight = !mDirRight;
         }
