@@ -53,7 +53,7 @@ public class duplicate : MonoBehaviour
                 gm.name = "sqr" + counter;
                 increment += 1.4f;
                 xAxis = xAxis + dir;
-                print(xAxis);
+                //print(xAxis);
 
                 if(childCount > 80){
                     Transform tmp;
